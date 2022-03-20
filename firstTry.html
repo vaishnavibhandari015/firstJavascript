@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    h1{
+      text-align: center;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      padding: 30px;
+}
+h2{
+  text-align: center;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+button{
+padding: 20px;
+text-align: center;
+color: blue;
+background-color: darkgoldenrod;
+border: none;
+margin: 0;
+position: absolute;
+top: 60%;
+left: 41%;
+}
+.first{
+  height: 400px;
+  width: 600px;
+background-color: white;
+  margin: 0;
+  position: absolute;
+  left: 30%;
+  top: 20%;
+}
+  </style>
+</head>
+
+<body>
+  <div class="first">
+  <h1 id= "h1">Hey!!!!!! Everyone <br>I am vaishnavi Bhandari</h1>
+  <h2 id="h2">I am learning JavaScript, this is my first try :)</h2>
+  <button onclick="myfun()">Click Me!</button>
+  </div>
+
+
+  <script>
+    function myfun() {
+     var h1 = document.getElementById("h1").style.color = "violet";
+     var h2 = document.getElementById("h2").style.color = "red";
+      document.body.style.backgroundColor = "black";
+    }
+
+  </script>
+
+</body>
+
+</html>
